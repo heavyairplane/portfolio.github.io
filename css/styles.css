@@ -1,0 +1,86 @@
+.name-section{
+  background-image: url(http://wallpapercave.com/wp/OktLK6u.jpg);
+  background-size: cover;
+  padding-top: 44vh;
+  padding-bottom: 44vh;
+ font-family: 'Amaranth', sans-serif;
+}
+
+.space{
+  padding-top:10vh;
+}
+/*.navbar-brand{
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+*/
+#brand-icon{
+ height: 30px;
+    width: 30px;
+}
+
+.navbar{
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+}
+
+h1{ 
+  font-size: 100px;
+  color: #fcfcfc;
+  }
+
+h2{ 
+  font-family: 'Amaranth', sans-serif; 
+  }
+h3{ 
+  font-family: 'Open Sans', sans-serif;
+  }
+
+.about-section{
+  background-color:#fcfcfc;
+  padding-top: 44vh;
+  padding-bottom: 44vh;
+  }
+
+.port{
+  background-size:50px 50px;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+#port-1{background-color: #ffdd6f; color:#000000;}
+#port-2{background-color: #2e41d6; color:#eceefb;}
+#port-3{background-color: #2e1933; color:#fa8368}
+#port-4{background-color: #fa4512;color:#faf4e0;}
+#port-5{background-color: #fdf3ea; color:#000000;}
+#port-6{background-color: #000000; color:#eceefb;}
+#port-7{background-color: #58595b; color:#f4f4f4}
+#port-8{background-color: #ffc9b1;color:#1c1613;}
+
+div{
+  overflow-x:hidden;
+}
+
+footer{
+  padding-top: 5vh;
+  padding-bottom:2vh;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size:10px;
+}
+
+/*.down{
+    position: static;
+    left: 50vw;
+    top: 90vh;
+} */
+
+
+  .navbar .navbar-nav {
+  display: inline-block;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
