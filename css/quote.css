@@ -1,0 +1,31 @@
+h1,h3{ 
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+h4{ 
+  font-family: 'Amaranth', sans-serif;    
+  }
+.header-section{
+  padding-bottom: 12.5vh;
+}
+.quote-section{
+  background-color:#FFEFB9;
+  padding-top: 12.5vh;
+  padding-bottom: 12.5vh;
+  border-style:  double;
+  border-width: 5px;
+  }
+
+
+.buttons-section{
+   padding-top: 2.5vh;
+  padding-bottom: 12.5vh;
+  }
+
+.tweet{
+  background-color: #CC9B36;
+}
+
+body{
+  padding-top:30vh; 
+}
