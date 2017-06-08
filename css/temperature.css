@@ -1,0 +1,26 @@
+h1,
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.temp,.intro{
+  color:black;
+}
+.temp-section {
+/*  background-color: #FFEFB9; */
+/*background: url("https://lh6.ggpht.com/_JfjOKoPd__wFCzD9KNJVdMsZZM0ok7ptIG1u5-CnWkeqrX2Q27zYVm7IjCk9K-gWrPi=h900"); */
+   padding-top: 25vh;
+  padding-bottom: 20vh;
+  border-style: double;
+  border-width: 5px;
+}
+
+
+.buttons-section {
+  padding-top: 2.5vh;
+  padding-bottom: 12.5vh;
+}
+
+body {
+  padding-top: 15vh;
+ }
