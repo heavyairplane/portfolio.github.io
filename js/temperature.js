@@ -5,6 +5,7 @@ $(document).ready(function() {
   var tempC;
   var url;
   var unit = 0; /*unit 0 = C, 1 is F*/
+  var myKey = config.DARKSKY_KEY;
   
 
   $("#changeTemp").on("click", function(event) {
@@ -40,7 +41,7 @@ $(document).ready(function() {
         lat = position.coords.latitude;
         lon = position.coords.longitude;
         url =
-          "https://api.darksky.net/forecast/(put your api key here)/" +
+          "https://api.darksky.net/forecast/" + myKey + "/" +
           lat +
           "," +
           lon;
