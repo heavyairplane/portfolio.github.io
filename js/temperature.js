@@ -5,7 +5,7 @@ $(document).ready(function() {
   var tempC;
   var url;
   var unit = 0; /*unit 0 = C, 1 is F*/
-  var myKey = config.DARKSKY_KEY;
+  var myKey = config.DARKSKY;
   
 
   $("#changeTemp").on("click", function(event) {
