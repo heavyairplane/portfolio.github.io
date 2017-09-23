@@ -5,7 +5,7 @@ $(document).ready(function() {
   var tempC;
   var url;
   var unit = 0; /*unit 0 = C, 1 is F*/
-  var myKey = "7b2147a64dd1b7c734a19b13fc85d6a6";
+  var myKey = "Put darksky key here";
   
 
   $("#changeTemp").on("click", function(event) {
