@@ -1,0 +1,33 @@
+.title {
+  padding-bottom: 50px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+.result {
+  border-style: double;
+  border-width: 5px;
+}
+
+body {
+  padding-top: 15vh;
+}
+
+.temp-section {
+}
+
+a {
+  color: #000000;
+}
+a:hover {
+  color: #000000;
+}
+
+#channel_status_success {
+  color: green;
+}
+
+#channel_status_fail {
+  color: lightgreen;
+}
