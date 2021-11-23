@@ -1,38 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
 
-  <head>
-    <title>Bootstrap 5 Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+<html>
 
-  <body>
-    <div class="container-fluid p-5 text-primary text-center">
-      <h1>Fantastic Fan Control (FFC)</h1>
-      <p>Control your fan from anywhere*</p>
-    </div>
-    <div class="container-fluid p-1 text-muted text-center">
-      <form action=\"/LED_BUILTIN_off\" method=\"get\" id=\"form4\"></form>
-      <button type=\"submit\" form=\"form4\" value=\"off\" class="btn btn-outline-primary btn-lg">off</button>
-    </div>
-    <div class="container-fluid p-1 text-muted text-center">
-      <form action=\"/LED_BUILTIN_1\" method=\"get\" id=\"form1\"></form>
-      <button type=\"submit\" form=\"form1\" value=\"1\" class="btn btn-outline-success btn-lg">1</button>
-    </div>
-    <div class="container-fluid p-1 text-muted text-center">
-      <form action=\"/LED_BUILTIN_2\" method=\"get\" id=\"form2\"></form>
-      <button type=\"submit\" form=\"form2\" value=\"2\" class="btn btn-outline-warning btn-lg">2</button>
-    </div>
-    <div class="container-fluid p-1 text-muted text-center">
-      <form action=\"/LED_BUILTIN_3\" method=\"get\" id=\"form3\"></form>
-      <button type=\"submit\" form=\"form3\" value=\"3\" class="btn btn-outline-danger btn-lg">3</button>
-    </div>
-    <div class="container-fluid p-5 text-primary text-center">
-      <p>* anywhere is only valid when on the same WiFi network</p>
-    </div>
-  </body>
 
-</html>
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=VT323|Vesper+Libre" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Amaranth:700|Open+Sans:600" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+<link rel="shortcut icon" href="/favicon.ico/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico/favicon.ico" type="image/x-icon">
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top wow fadeInDown" data-wow-delay="0.4s">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--   <a class="navbar-brand " href="#"><b>Heavy Airplane</b></a>
+    </div> -->
+      <a class="navbar-brand " href="#"> <img id="brand-icon" src="https://image.flaticon.com/icons/png/128/82/82593.png" </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About <span class="sr-only"></span></a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+  <!--      <li><a href="#contact">Message me</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--end of nav 1-->
+
+<div class="name-section container-fluid">
+  <h1 class="text-center wow fadeIn" data-wow-delay="0.4s">
+    HEAVY AIRPLANE
+    </h1>
+
+
+
+</div>
+<!--end of name section-->
+
+<a id=about></a>
+<div class="about-section container-fluid wow fadeInUp" data-wow-delay="0.5s">
+
+  <h2 class="text-center">
+    Hi, I'm Heavy Airplane
+  </h2>
+
+  <h3 class="text-center">
+    This is my Personal Portfolio submission for freeCodeCamp
+  </h3>
+
+   <!--<button type="button" class="btn btn-default down" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+</button> -->
+
+</div>
+<!--end of about-->
+
+<a id=portfolio></a>
+<div class ="wow fadeInUp" data-wow-delay="0.4s">
+  <div class="row container-fluid portfolio-section">
+    <a href="html/quote.html" target ="_blank"><div class="col-md-6 port" id="port-1">
+      <h4 class="text-center">  Random Scooter Quote Generator
+    </h4>
+      </div></a>
+
+   <a href="html/temperature.html" target="_blank"> <div class="col-md-6 port" id="port-2">
+      <h4 class="text-center"> Current local temperature
+    </h4>
+     </div></a>
+  </div>
+  <!-- end of row 1-->
+
+  <div class="row container-fluid portfolio-section">
+    <a href="html/wikipedia.html" target="_blank"><div class="col-md-6 port" id="port-3">
+      <h4 class="text-center">  Wikpedia viewer
+    </h4>
+      </div></a>
+
+    <a href="html/twitch.html" target="_blank"><div class="col-md-6 port" id="port-4">
+      <h4 class="text-center">  Who's on Twitch
+    </h4>
+      </div></a>
+  </div>
+  <!-- end of row 2-->
+
+  <div class="row container-fluid portfolio-section">
+   <a href="#"> <div class="col-md-6 port" id="port-5">
+      <h4 class="text-center">  This is portfolio #5
+    </h4>
+     </div> </a>
+
+    <a href="#"><div class="col-md-6 port" id="port-6">
+      <h4 class="text-center">  This is portfolio #6
+    </h4>
+      </div></a>
+  </div>
+  <!-- end of row 1-->
+
+  <div class="row container-fluid portfolio-section">
+    <a href="#"><div class="col-md-6 port" id="port-7">
+      <h4 class="text-center">  This is portfolio #7
+    </h4>
+      </div></a>
+
+   <a href="#"> <div class="col-md-6 port" id="port-8">
+      <h4 class="text-center">  This is portfolio #8
+    </h4>
+     </div> </a>
+  </div>
+  <!-- end of row 2-->
+</div>
+
+  <div class = "text-center space wow fadeInUp" data-wow-delay="1s">
+<a href="#"><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+</button></a>
+
+ <a href="#">   <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-retweet" aria-hidden="true"></span>
+</button></a>
+
+  <a href="#">  <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+</button> </a>
+  </div>
+<!-- end of portfolio-->
+  <footer class="text-right"> Another HTML project by heavyairplane
+  </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  </html>
+
+<!-- designed by heavyairplane. Inspired by Gander, inc website-->
